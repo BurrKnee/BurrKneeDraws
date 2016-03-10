@@ -14,4 +14,13 @@ h1 {background-color:#deb887;
 	border-bottom-width:4px;}
 h2 {font-size:150%;}
 ul {list-style-type:circle;}
+ul.list li {width:auto;
+  float:left;}
+nav li {display: inline;
+	border: solid;
+	border-width: 0px 1px 1px 1px;
+    margin: 0 5px 0 0;
+	position:relative;
+	bottom: 138px;}
+nav li a {padding: 0 10px;}
 img {border:2px solid #021a40;}
