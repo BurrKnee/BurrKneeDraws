@@ -2,7 +2,9 @@ body {background-color:#ffe0b3;}
 body {color:#4d2e00;}
 body {line-height:150%;}
 body {font-size:120%;}
-div.login {text-align:right;}
+div.login {text-align:right;
+	position:relative;
+	bottom: 30px;}
 div.Signup {text-alighn:left;}
 h1 {text-align:center;}
 h1 {font-size:250%;}
@@ -26,3 +28,10 @@ nav li {display: inline;
 nav li a {padding: 0 10px;}
 .signupform, .loginform {float: right;}
 img {border:2px solid #021a40;}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
